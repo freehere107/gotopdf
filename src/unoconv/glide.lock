@@ -1,0 +1,56 @@
+hash: 8a179f3effa4758929c54aa042ccefb52e1479658501f7e441fd0992aecbe711
+updated: 2017-06-15T11:02:57.302842221+08:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: a539ee1a749a2b895533f979515ac7e6e0f5b650
+- name: github.com/labstack/echo
+  version: 1049c9613cd371b7ea8f219404c9a821734781ed
+  subpackages:
+  - middleware
+- name: github.com/labstack/gommon
+  version: 1121fd3e243c202482226a7afe4dcd07ffc4139a
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/mattn/go-colorable
+  version: ded68f7a9561c023e790de24279db7ebf473ea80
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: e7ba82683099cae71475961448ab8f903ea77c26
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: ddf80d0970594e2e4cccf5a98861cad3d9eaa4cd
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: b9e8d468b01f806830d387bd9a1fe96dc68129d1
+  subpackages:
+  - unix
+- name: qiniupkg.com/api.v7
+  version: e4122ada30952518d4745bb9f8dd87bef65a498f
+  subpackages:
+  - auth/qbox
+  - conf
+  - kodo
+  - kodocli
+- name: qiniupkg.com/x
+  version: 946c4a16076d6d98aeb78619e2bd4012357f7228
+  subpackages:
+  - bytes.v7
+  - bytes.v7/seekable
+  - ctype.v7
+  - log.v7
+  - reqid.v7
+  - rpc.v7
+  - url.v7
+  - xlog.v7
+testImports: []

@@ -1,0 +1,8 @@
+package: unoconv
+import:
+- package: github.com/labstack/echo
+  version: v3.1.0
+- package: qiniupkg.com/api.v7
+  version: ^7.0.5
+- package: qiniupkg.com/x
+- package: github.com/dgrijalva/jwt-go
